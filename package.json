@@ -4,7 +4,8 @@
   "description": "Example group chat app built with socket.io and react.",
   "scripts": {
     "server": "node ./server/server.js",
-    "client": "webpack-dev-server"
+    "client": "webpack-dev-server",
+    "test": "jasmine"
   },
   "keywords": [
     "websocket",
@@ -29,13 +30,14 @@
     "socket.io": "^2.0.4",
     "styled-components": "^3.1.6",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": "^3.1.9"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.1"
+    "eslint-plugin-react": "^7.6.1",
+    "jasmine": "^3.2.0"
   }
 }
